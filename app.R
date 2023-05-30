@@ -4,9 +4,6 @@ library(ggpubr)
 library(openxlsx)
 library(table1)
 
-#setwd("C:/Users/Sydney/Documents/R/")
-#pharmaceutical <- read.csv("pharmaceutical_shiny.csv", header=TRUE, stringsAsFactors = FALSE) #n = 530
-
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   tags$head(tags$script(src = "message-handler.js")),
